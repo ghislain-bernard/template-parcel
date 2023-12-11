@@ -1,0 +1,40 @@
+{
+  "author": "Ghislain Bernard <ghislain.bernard@gmail.com>",
+  "dependencies": {
+    "@parcel/config-default": "2.10.3",
+    "@parcel/core": "2.10.3",
+    "@parcel/optimizer-terser": "2.10.3",
+    "@parcel/transformer-pug": "2.10.3",
+    "@parcel/transformer-sass": "2.10.3",
+    "@types/node": "20.10.4",
+    "@typescript-eslint/eslint-plugin": "6.13.2",
+    "@typescript-eslint/parser": "6.13.2",
+    "by-node-env": "2.0.1",
+    "eslint": "8.55.0",
+    "htmlhint": "1.1.4",
+    "parcel": "2.10.3",
+    "rimraf": "5.0.5",
+    "sharp": "0.31.3",
+    "typescript": "5.3.3"
+  },
+  "description": "template",
+  "license": "MIT",
+  "name": "@gbernard/template-parcel",
+  "scripts": {
+    "build": "by-node-env",
+    "build:development": "parcel build --no-autoinstall --no-optimize --no-source-maps",
+    "build:production": "parcel build --no-autoinstall --no-source-maps",
+    "build:test": "parcel build --no-autoinstall --no-source-maps",
+    "clean": "rimraf .parcel-cache dist",
+    "lint": "eslint --max-warnings=0 src/script.ts",
+    "postbuild": "rimraf .parcel-cache",
+    "prebuild": "rimraf .parcel-cache dist",
+    "prestart": "rimraf .parcel-cache dist",
+    "start": "by-node-env",
+    "start:development": "parcel serve --no-autoinstall ",
+    "start:production": "parcel watch --no-autoinstall --no-hmr --no-source-maps",
+    "version": "echo $npm_package_version"
+  },
+  "source": "src/index.pug",
+  "version": "0.0.1"
+}
