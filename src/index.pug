@@ -1,0 +1,31 @@
+doctype html
+//-------------------------------------------- ghislain.bernard@gmail.com --------------------------------------------//
+
+html
+
+  head
+
+    meta(charset='UTF-8')
+    meta(content='width=device-width,initial-scale=1' name='viewport')
+
+    link(href='./favicon.ico' rel='shortcut icon')
+    link(href='./style.css' rel='stylesheet')
+
+    title template
+
+  body
+
+    main
+
+      h1 template-parcel
+
+      picture
+        source(srcset!='img/parcel.webp?as=avif&width=1024' type='image/avif')
+        source(srcset!='img/parcel.webp?as=webp&width=512' type='image/webp')
+        img(alt='parcel' src!='img/parcel.webp?width=256' style='max-width:256px')
+
+      include index.html
+
+    script(src='./script.ts',type='module')
+
+//-------------------------------------------- ghislain.bernard@gmail.com --------------------------------------------//
