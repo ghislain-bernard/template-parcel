@@ -1,0 +1,30 @@
+{
+  "env": { "es2020": true, "node": true },
+  "ignorePatterns": ["dist/"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "sourceType": "module" },
+  "root": true,
+  "rules": {
+    "curly": ["warn", "multi"],
+    "eqeqeq": "warn",
+    "for-direction": "warn",
+    "indent": ["warn", 2],
+    "no-const-assign": "warn",
+    "no-extra-semi": "warn",
+    "no-global-assign": "warn",
+    "no-mixed-spaces-and-tabs": "warn",
+    "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": ["warn", { "max": 0 }],
+    "no-redeclare": "warn",
+    "no-self-assign": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "no-var": "warn",
+    "prefer-const": "warn",
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "semi": "warn",
+    "strict": "warn",
+    "valid-typeof": "warn"
+  }
+}
