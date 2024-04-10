@@ -3,7 +3,7 @@ type: docker
 
 steps:
   - name: test
-    image: node:20.11.1-bookworm-slim
+    image: node:20.12.1-bookworm-slim
     commands:
       - pwd
       - apt-get update
