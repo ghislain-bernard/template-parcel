@@ -81,7 +81,7 @@ $ corepack pnpm run-script lint
 > @gbernard/template-parcel@0.0.1 lint /home/user/git/template-parcel
 > eslint --max-warnings=0 src/script.ts
 
-$ corepack pnpx htmlhint dist
+$ corepack pnpm exec htmlhint dist
 
    Config loaded: /home/user/git/template-parcel/.htmlhintrc
 
