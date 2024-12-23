@@ -38,7 +38,7 @@ module.exports = [
       'no-unused-vars': 'warn',
       'no-var': 'warn',
       'prefer-const': 'warn',
-      strict: 'warn',
+      strict: ['warn', 'global'],
       'valid-typeof': 'warn'
     }
   }
