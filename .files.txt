@@ -1,11 +1,11 @@
 .gitignore
 .editorconfig
 .env
-.eslintrc
 .prettierrc
 .htmlhintrc
 .npmrc
 .parcelrc
+eslint.config.js
 package.json
 pug.config.js
 sharp.config.json
