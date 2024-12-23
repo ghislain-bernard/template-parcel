@@ -1,19 +1,16 @@
 // ------------------------------------------- ghislain.bernard@gmail.com ------------------------------------------- //
 const globals = require('globals');
-//
 const stylistic = require('@stylistic/eslint-plugin-js');
-const typescript = require('typescript-eslint');
+//
+const tseslint = require('typescript-eslint');
 //
 module.exports = [
+  { files: ['**/*.ts'] },
+  { ignores: ['dist/'] },
   {
-    ignores: ['dist/']
-  },
-  {
-    files: ['**/*.js', '**/*.ts'],
     languageOptions: {
-      ecmaVersion: 2020,
       globals: { ...globals.node },
-      parser: typescript.parser
+      parser: tseslint.parser
     },
     plugins: {
       '@stylistic/js': stylistic
