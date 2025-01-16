@@ -2,7 +2,7 @@
 
 all: clean
 
-SHELL = /bin/bash
+SHELL = /usr/bin/env bash
 
 ########################################################################################################################
 
@@ -10,8 +10,8 @@ clean:
 	@echo ''
 	@echo -e '/!\ cleaning...'
 
-	rm --force --recursive --verbose dist
-	rm --force --recursive .parcel-cache node_modules
+	$(RM) -rv dist
+	$(RM) -r .parcel-cache node_modules
 
 	@echo ...done
 
