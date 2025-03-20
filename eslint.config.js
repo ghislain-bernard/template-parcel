@@ -1,10 +1,10 @@
 // ------------------------------------------- ghislain.bernard@gmail.com ------------------------------------------- //
-const globals = require('globals');
-const stylistic = require('@stylistic/eslint-plugin-js');
+import globals from 'globals';
+import stylistic from '@stylistic/eslint-plugin-js';
 //
-const tseslint = require('typescript-eslint');
+import tseslint from 'typescript-eslint';
 //
-module.exports = [
+export default [
   { files: ['**/*.ts'] },
   { ignores: ['dist/'] },
   {
