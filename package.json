@@ -6,7 +6,7 @@
     "@parcel/optimizer-terser": "2.14.1",
     "@parcel/transformer-pug": "2.14.1",
     "@parcel/transformer-sass": "2.14.1",
-    "@stylistic/eslint-plugin-js": "3.1.0",
+    "@stylistic/eslint-plugin-js": "4.2.0",
     "@types/node": "22.13.10",
     "by-node-env": "2.0.1",
     "eslint": "9.22.0",
@@ -38,5 +38,6 @@
     "version": "echo $npm_package_version"
   },
   "source": "src/index.pug",
+  "type": "module",
   "version": "0.0.1"
 }
