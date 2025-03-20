@@ -7,7 +7,7 @@
 .parcelrc
 eslint.config.js
 package.json
-pug.config.js
+.pugrc
 sharp.config.json
 src/index.pug
 src/index.html
