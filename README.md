@@ -1,6 +1,6 @@
 ## template-parcel
 
-[![parcel.webp](parcel.webp)](https://parceljs.org) 
+[![parcel.webp](parcel.webp)](https://parceljs.org)
 
 ### usage
 
