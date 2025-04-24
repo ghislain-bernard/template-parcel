@@ -81,5 +81,5 @@ rm -f -r .parcel-cache node_modules
 ...done
 ```
 
-> MIT License
+> MIT License  
 > ghislain.bernard@gmail.com
