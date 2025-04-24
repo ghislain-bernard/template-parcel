@@ -7,7 +7,7 @@
     "@parcel/transformer-pug": "2.14.4",
     "@parcel/transformer-sass": "2.14.4",
     "@stylistic/eslint-plugin-js": "4.2.0",
-    "@types/node": "22.14.1",
+    "@types/node": "22.15.0",
     "by-node-env": "2.0.1",
     "eslint": "9.25.1",
     "globals": "16.0.0",
