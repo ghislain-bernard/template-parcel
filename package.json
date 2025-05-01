@@ -1,13 +1,14 @@
 {
   "author": "Ghislain Bernard <ghislain.bernard@gmail.com>",
   "dependencies": {
+    "@fontsource/inter": "5.2.5",
     "@parcel/config-default": "2.14.4",
     "@parcel/core": "2.14.4",
     "@parcel/optimizer-terser": "2.14.4",
     "@parcel/transformer-pug": "2.14.4",
     "@parcel/transformer-sass": "2.14.4",
     "@stylistic/eslint-plugin-js": "4.2.0",
-    "@types/node": "22.15.0",
+    "@types/node": "22.15.3",
     "by-node-env": "2.0.1",
     "eslint": "9.25.1",
     "globals": "16.0.0",
@@ -16,12 +17,12 @@
     "rimraf": "6.0.1",
     "sharp": "0.33.5",
     "typescript": "5.8.3",
-    "typescript-eslint": "8.31.0"
+    "typescript-eslint": "8.31.1"
   },
   "description": "template",
   "license": "MIT",
   "name": "@gbernard/template-parcel",
-  "packageManager": "pnpm@10.9.0",
+  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "build": "by-node-env",
     "build:development": "parcel build --no-autoinstall --no-optimize --no-source-maps",
