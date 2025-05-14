@@ -22,7 +22,7 @@
   "description": "template",
   "license": "MIT",
   "name": "@gbernard/template-parcel",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "build": "by-node-env",
     "build:development": "parcel build --no-autoinstall --no-optimize --no-source-maps",
