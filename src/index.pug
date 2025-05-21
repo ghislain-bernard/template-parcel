@@ -17,12 +17,14 @@ html
 
     main
 
-      h1 template-parcel
+      a(href='https://github.com/ghislain-bernard/template-parcel')
+        h1 template-parcel
 
-      picture
-        source(srcset!='img/parcel.webp?as=avif&width=1024' type='image/avif')
-        source(srcset!='img/parcel.webp?width=512' type='image/webp')
-        img(alt='parcel' src!='img/parcel.webp?as=png&width=256' style='max-width:256px')
+      a(href='https://parceljs.org')
+        picture
+          source(srcset!='img/parcel.webp?as=avif&width=1024' type='image/avif')
+          source(srcset!='img/parcel.webp?width=512' type='image/webp')
+          img(alt='parcel' src!='img/parcel.webp?as=png&width=256' style='max-width:256px')
 
       include index.html
 
