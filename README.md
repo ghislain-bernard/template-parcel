@@ -4,7 +4,7 @@
 
 ### usage
 
-```console
+```bash
 $ corepack pnpm run-script version
 
 > @gbernard/template-parcel@0.0.1 version /home/user/git/template-parcel
