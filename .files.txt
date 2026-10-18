@@ -7,6 +7,8 @@
 .parcelrc
 eslint.config.js
 package.json
+tsconfig.json
+global.d.ts
 .pugrc
 .htmlnanorc
 sharp.config.json
