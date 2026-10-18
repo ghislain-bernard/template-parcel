@@ -29,7 +29,7 @@
     "build:production": "parcel build --no-autoinstall --no-source-maps",
     "build:test": "parcel build --no-autoinstall --no-source-maps",
     "clean": "rimraf .parcel-cache dist",
-    "lint": "eslint --max-warnings=0 src/script.ts",
+    "lint": "eslint --max-warnings=0 src/env.d.ts src/script.ts",
     "postbuild": "rimraf .parcel-cache",
     "prebuild": "rimraf .parcel-cache dist",
     "prestart": "rimraf .parcel-cache dist",
